@@ -10,6 +10,7 @@ const SectionTabs = memo((props) => {
 
   function itemClickHandle(index, item) {
     setCurrentIndex(index)
+    
     tabClick(index, item)
   }
 
